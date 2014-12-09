@@ -17,7 +17,7 @@ syntax keyword arduinoModule
 
 syntax keyword arduinoFunc
             \ abs accept acos analogRead analogReference analogWrite asin atan
-            \ atan2 attachInterrupt available begin bit bitClear bitRead bitSet
+            \ atan2 attachInterrupt available bit bitClear bitRead bitSet
             \ bitWrite ceil click constrain cos degrees delay
             \ delayMicroseconds detachInterrupt digitalRead digitalWrite end
             \ exp find findUntil floor flush highByte interrupts isPressed

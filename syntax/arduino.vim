@@ -9,15 +9,15 @@ syntax keyword arduinoConstant
             \ LOW LSBFIRST MSBFIRST OCT OUTPUT PI RISING TWO_PI
 
 syntax keyword arduinoType
-            \ Client EthernetUDP IPAddress Server String SoftwareSerial
-            \ boolean byte word
+            \ EthernetClient EthernetUDP IPAddress EthernetServer String
+            \ SoftwareSerial boolean byte word
 
 syntax keyword arduinoModule
             \ Ethernet Keyboard Mouse Serial Serial1 Serial2 Serial3
 
 syntax keyword arduinoFunc
             \ abs accept acos analogRead analogReference analogWrite asin atan
-            \ atan2 attachInterrupt available bit bitClear bitRead bitSet
+            \ atan2 attachInterrupt available begin bit bitClear bitRead bitSet
             \ bitWrite ceil click constrain cos degrees delay
             \ delayMicroseconds detachInterrupt digitalRead digitalWrite end
             \ exp find findUntil floor flush highByte interrupts isPressed
